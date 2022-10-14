@@ -1,6 +1,8 @@
 # How to Contribute in this repo.
 
-Contributing to open-source is easy.
+### Contributing to open-source is easy.
+
+### Before submiting the PR do make sure to provide a small description on what changes you have made
 
 1. ### Star and Fork the Repo
 		
