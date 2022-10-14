@@ -1,6 +1,9 @@
 # Contribute-To-HacktoberFest
 ![Component_1](https://user-images.githubusercontent.com/55801439/194706267-6492d3e2-4a9d-457c-b8ba-c88f82f500d3.png)
 
+GDSC MITS is hosting a **"open-to-contribute"** repository where everyone is free to make pull request, even if they are submitting a PR (Pull Request) for the first time or this is theri 100th PR, everyone is welcome to contribute
+
+For details on how to contribute do checkout the [CONTRIBUTING.md](https://github.com/GDSC-MITS/Contribute-To-HacktoberFest/blob/main/CONTRIBUTING.md)
 
 ## How to install and configure git
 
