@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Temperature Converter in Javascript</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+  </head>
+  <style>
+#convert 
+{
+  background-color: lightblue;
+}
+
+#convert:hover 
+{
+  background-color: #bcc768;
+}
+
+h1 
+{
+    margin-top: 20px;
+  font-family: sans-serif;
+  font-style: italic;
+  color: #000000;
+}
+
+input 
+{
+  display: block;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 2em;
+  color: #72c9cf;
+  font-family: cursive, sans-serif;
+}
+
+::-webkit-input-placeholder 
+{
+   color: lightgray;
+}
+
+:-moz-placeholder 
+{ 
+   color: #ccc;  
+}
+
+::-moz-placeholder 
+{ 
+   color: #ccc;  
+}
+
+:-ms-input-placeholder 
+{  
+   color: #ccc;  
+}
+
+button 
+{
+  padding: 10px;
+  font-size: 1.2em;
+  color: lightslategray;
+}
+
+div
+{
+   height: fit-content;
+   width: fit-content;
+}
+
+body 
+{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      height: 100vh;
+      background-color: #9df1f4;
+}
+
+label
+{
+    color: darkred;
+}
+
+body
+{
+  background-image: url('newimgtemp.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+  font-style: normal;
+}
+
+  </style>
+  <body>
+    
+  <div class="cntrl">  
+    <h1>Temperature Converter</h1>
+
+    <label for="fahrenheit">Fahrenheit(&deg;F):</label>
+    <input type="text" id="fahrenheit" placeholder="Fahrenheit" name="f" value="" /><br>
+    
+    <label for="celsius">Celsius(&deg;C)</label>
+    <input type="text" id="celsius" placeholder="Celsius" name="c" value="" /><br>
+   
+    <label for="kelvin">Kelvin(&deg;K)</label>
+    <input type="text" id="kelvin" placeholder="Kelvin" name="k" value="" /><br>
+    
+    <button id="convert" onclick="tempConvert()">Convert!</button>
+    <button id="clear" onclick="ClearForm()">Reset</button>
+
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
