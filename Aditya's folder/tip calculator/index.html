@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tip Calculator</title>
+        <link rel="stylesheet" href="./style.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <center>
+                <h2><span>Tip Calculator</span></h2>
+            </center>
+            <center>
+                <form id="form">
+                        How much was your bill?
+                    <br>
+                    <br>
+                        Rs:<input type = "number" placeholder="Bill Amount" id="amount">
+                    <br>
+                    <br>
+                        How was your service?
+                    <br>
+                    <br>
+                    <select id="service">
+                        <option value = "Excellent">Excellent</option>
+                        <option value = "Good">Good</option>
+                        <option value = "Average">Average</option>
+                        <option value = "Bad">Bad</option>
+                    </select>
+                    <br>
+                    <br>
+                        How many people are sharing the bill?
+                    <br>
+                    <br>
+                    <input type = "number" placeholder = "Number of People" id="people">
+                    <br>
+                    <br>
+                    <button type = "button" id ="Submit"onclick="calculateTip()">CALCULATE</button>
+                </form>
+            </center>
+        </div>
+        <script>
+            function calculateTip()
+            {
+                const billAmount = parseInt(document.getElementById("amount").value);
+                const numOfPeople = document.getElementById("people").value;
+                const service = document.getElementById("service").value;
+                
+                const tenPercentofBill = (billAmount * 0.1);
+                
+                const tipTotal = (tenPercentofBill/2)+ tenPercentofBill;
+                
+                const perPerson = (tipTotal/numOfPeople);
+                
+                alert("Your suggested tip amount is: " + perPerson  + "per person." + "Your service feedback was:" + service + ".");
+            }
+        </script>
+    </body>
+</html>
