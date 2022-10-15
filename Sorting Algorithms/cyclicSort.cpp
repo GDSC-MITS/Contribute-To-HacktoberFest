@@ -1,3 +1,17 @@
+/*
+   @file cyclicSort.cpp
+ * @brief Solved the Cyclic sort algorithm;
+ *
+ * Input Format:
+ * First line contaions a single integer n, representing size of thw array
+ * Second line contaions n space seperated integers, the elements of array
+ *
+ * Output Format:
+ * Sorted array of size N
+
+ * Note: For cyclic sort algorithm array elements needs to be in range  from  [1 to n]. Only then it will work.
+*/
+
 #include <iostream>
 #include <vector>
 using namespace std;
