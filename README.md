@@ -9,6 +9,9 @@ GDSC MITS is hosting an **"open-to-contribute"** repository where everyone is fr
 ---
 
 ### Before submitting the Pull Request do make sure to provide a small description of what changes you have made
+Only Pull Requests with a good description will be merged to the code base
+### Making issues is not required, please feel free to fork this repo and submit a pull request
+It becomes a more tedious process for all those who are maintaining this repo to assign everyone to their respective issues.
 
 ---
 
