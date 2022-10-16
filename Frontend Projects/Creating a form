@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <style>
+            html, body {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#contact{
+    margin: auto;
+    max-width: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5%;
+    border-style:outset;
+}
+label,button{
+    display: block;
+    font-weight:600;
+}
+input{
+    width: 100%;
+    border: 2px solid black;
+     border-radius: 5%
+}
+textarea{
+    width: 100%;
+    border: 2px solid black;
+     border-radius: 5% 
+}
+button{
+    background-color: lightgray;
+    font-style: cursive;
+}
+        </style>
+    </head>
+    <body>
+        <div id="contact">
+            <h1>Contact Me</h1>
+            <!--method post ensures that user entered data is not visible in the link-->
+            <form id="form" method="POST" data-netlify="true">
+                <!--datanetlify is used to collect the data passed through form as we are not aware of backend till yet-->
+                <label id="first" for="firstname">First Name</label>
+                 <input type="text" name="Firstname" id="firstname" required/>
+                 <label id="last" for="lastname">Last Name</label>
+                 <input type="text" name="Lastname" id="lname" required/>
+                 <label id="msg" for="message">Message</label>
+                 <textarea name="msg" id="message" cols="35" rows="12"></textarea>
+                 <button type="submit">SUBMIT</button>
+            </form>
+        
+        </div>
+        <script src="index.pack.js"></script>
+    </body>
+</html>
