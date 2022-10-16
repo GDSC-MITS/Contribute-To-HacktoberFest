@@ -1,4 +1,14 @@
-// Radix Sort in C++ Programming
+/**
+ * @file radix_sort.cpp
+ * @brief Solved the Radix sort algorithm;
+ *
+ * Input Format:
+ * First line contaions a single integer n, representing size of thw array
+ * Second line contaions n space seperated integers, the elements of array
+ *
+ * Output Format:
+ * Sorted array of size N
+ */
 
 #include <bits/stdc++.h>
 using namespace std;
