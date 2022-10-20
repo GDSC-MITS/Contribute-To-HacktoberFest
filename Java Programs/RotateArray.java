@@ -1,6 +1,14 @@
 /*
 Rotate the array to the right by k steps, where k is non-negative.
-The solution takes O(1) Space Complexity
+The solution takes O(1) Space Complexity and O(n) Time Complexity
+
+Constraints:
+    Given array -> nums
+    Nunmber of steps of to ratated -> k
+
+Algorithm:
+    Create an another array and storing the value at the rotated index using logic, NewIndex = (i + steps) % GivenArrayLength, where i is index of given 
+    array
  */
 
 public class PascalTriangle {
