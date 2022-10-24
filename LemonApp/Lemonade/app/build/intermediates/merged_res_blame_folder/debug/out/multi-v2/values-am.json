@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.lemonade.app-mergeDebugResources-33:/values-am/values-am.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Milan\\.gradle\\caches\\transforms-3\\4e7a39756c51cc4894cbbdc5bf7df361\\transformed\\core-1.7.0\\res\\values-am\\values-am.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "1071",
+                        "endColumns": "100",
+                        "endOffsets": "1167"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Milan\\.gradle\\caches\\transforms-3\\d9eb3e3e20ce97dd6936555eef3b1ea1\\transformed\\ui-1.1.1\\res\\values-am\\values-am.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,188,265,357,453,535,613,709,791,869,935,1001,1071,1136",
+                        "endColumns": "82,76,91,95,81,77,95,81,77,65,65,69,64,115",
+                        "endOffsets": "183,260,352,448,530,608,704,786,864,930,996,1066,1131,1247"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,188,265,357,453,535,613,709,791,869,935,1001,1172,1237",
+                        "endColumns": "82,76,91,95,81,77,95,81,77,65,65,69,64,115",
+                        "endOffsets": "183,260,352,448,530,608,704,786,864,930,996,1066,1232,1348"
+                    }
+                }
+            ]
+        }
+    ]
+}

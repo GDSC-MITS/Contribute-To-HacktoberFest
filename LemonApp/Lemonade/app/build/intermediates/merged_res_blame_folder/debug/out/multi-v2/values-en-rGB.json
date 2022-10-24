@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.lemonade.app-mergeDebugResources-33:/values-en-rGB/values-en-rGB.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Milan\\.gradle\\caches\\transforms-3\\4e7a39756c51cc4894cbbdc5bf7df361\\transformed\\core-1.7.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "1116",
+                        "endColumns": "100",
+                        "endOffsets": "1212"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Milan\\.gradle\\caches\\transforms-3\\d9eb3e3e20ce97dd6936555eef3b1ea1\\transformed\\ui-1.1.1\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,197,279,373,472,559,641,741,830,914,979,1043,1116,1182",
+                        "endColumns": "91,81,93,98,86,81,99,88,83,64,63,72,65,120",
+                        "endOffsets": "192,274,368,467,554,636,736,825,909,974,1038,1111,1177,1298"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,197,279,373,472,559,641,741,830,914,979,1043,1217,1283",
+                        "endColumns": "91,81,93,98,86,81,99,88,83,64,63,72,65,120",
+                        "endOffsets": "192,274,368,467,554,636,736,825,909,974,1038,1111,1278,1399"
+                    }
+                }
+            ]
+        }
+    ]
+}

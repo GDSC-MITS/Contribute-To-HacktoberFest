@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.lemonade.app-mergeDebugResources-33:/values-pt/values-pt.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Milan\\.gradle\\caches\\transforms-3\\4e7a39756c51cc4894cbbdc5bf7df361\\transformed\\core-1.7.0\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "1095",
+                        "endColumns": "100",
+                        "endOffsets": "1191"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Milan\\.gradle\\caches\\transforms-3\\d9eb3e3e20ce97dd6936555eef3b1ea1\\transformed\\ui-1.1.1\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,236,333,432,518,601,700,791,878,950,1019,1095",
+                        "endColumns": "94,85,96,98,85,82,98,90,86,71,68,75,66",
+                        "endOffsets": "145,231,328,427,513,596,695,786,873,945,1014,1090,1157"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,236,333,432,518,601,700,791,878,950,1019,1196",
+                        "endColumns": "94,85,96,98,85,82,98,90,86,71,68,75,66",
+                        "endOffsets": "145,231,328,427,513,596,695,786,873,945,1014,1090,1258"
+                    }
+                }
+            ]
+        }
+    ]
+}
