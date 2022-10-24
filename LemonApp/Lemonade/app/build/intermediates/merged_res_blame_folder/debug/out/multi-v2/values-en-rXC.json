@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.lemonade.app-mergeDebugResources-33:/values-en-rXC/values-en-rXC.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Milan\\.gradle\\caches\\transforms-3\\d9eb3e3e20ce97dd6936555eef3b1ea1\\transformed\\ui-1.1.1\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,296,481,678,880,1067,1252,1456,1644,1831,1996,2163,2329,2496",
+                        "endColumns": "190,184,196,201,186,184,203,187,186,164,166,165,166,237",
+                        "endOffsets": "291,476,673,875,1062,1247,1451,1639,1826,1991,2158,2324,2491,2729"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,296,481,678,880,1067,1252,1456,1644,1831,1996,2163,2533,2700",
+                        "endColumns": "190,184,196,201,186,184,203,187,186,164,166,165,166,237",
+                        "endOffsets": "291,476,673,875,1062,1247,1451,1639,1826,1991,2158,2324,2695,2933"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Milan\\.gradle\\caches\\transforms-3\\4e7a39756c51cc4894cbbdc5bf7df361\\transformed\\core-1.7.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "203",
+                        "endOffsets": "254"
+                    },
+                    "to": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "2329",
+                        "endColumns": "203",
+                        "endOffsets": "2528"
+                    }
+                }
+            ]
+        }
+    ]
+}

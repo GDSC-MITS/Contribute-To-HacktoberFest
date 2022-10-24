@@ -12,7 +12,7 @@ $pip install pyshorteners
 Download this folder and run the program in your terminal
 
 ```
-$ python code.py
+$ python urlshortner.py
 ```
 
 #### Output
