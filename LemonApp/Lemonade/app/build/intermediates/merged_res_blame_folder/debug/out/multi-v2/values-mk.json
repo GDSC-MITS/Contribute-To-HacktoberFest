@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.lemonade.app-mergeDebugResources-33:/values-mk/values-mk.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Milan\\.gradle\\caches\\transforms-3\\d9eb3e3e20ce97dd6936555eef3b1ea1\\transformed\\ui-1.1.1\\res\\values-mk\\values-mk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,299,395,498,583,660,767,859,943,1014,1084,1156,1227",
+                        "endColumns": "103,89,95,102,84,76,106,91,83,70,69,71,70,120",
+                        "endOffsets": "204,294,390,493,578,655,762,854,938,1009,1079,1151,1222,1343"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,299,395,498,583,660,767,859,943,1014,1084,1257,1328",
+                        "endColumns": "103,89,95,102,84,76,106,91,83,70,69,71,70,120",
+                        "endOffsets": "204,294,390,493,578,655,762,854,938,1009,1079,1151,1323,1444"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Milan\\.gradle\\caches\\transforms-3\\4e7a39756c51cc4894cbbdc5bf7df361\\transformed\\core-1.7.0\\res\\values-mk\\values-mk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "1156",
+                        "endColumns": "100",
+                        "endOffsets": "1252"
+                    }
+                }
+            ]
+        }
+    ]
+}
