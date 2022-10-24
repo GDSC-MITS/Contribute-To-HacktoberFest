@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.lemonade.app-mergeDebugResources-33:/values-ro/values-ro.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Milan\\.gradle\\caches\\transforms-3\\4e7a39756c51cc4894cbbdc5bf7df361\\transformed\\core-1.7.0\\res\\values-ro\\values-ro.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "1091",
+                        "endColumns": "100",
+                        "endOffsets": "1187"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Milan\\.gradle\\caches\\transforms-3\\d9eb3e3e20ce97dd6936555eef3b1ea1\\transformed\\ui-1.1.1\\res\\values-ro\\values-ro.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,240,337,439,527,605,704,795,877,949,1018,1091",
+                        "endColumns": "98,85,96,101,87,77,98,90,81,71,68,72,66",
+                        "endOffsets": "149,235,332,434,522,600,699,790,872,944,1013,1086,1153"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,240,337,439,527,605,704,795,877,949,1018,1192",
+                        "endColumns": "98,85,96,101,87,77,98,90,81,71,68,72,66",
+                        "endOffsets": "149,235,332,434,522,600,699,790,872,944,1013,1086,1254"
+                    }
+                }
+            ]
+        }
+    ]
+}
