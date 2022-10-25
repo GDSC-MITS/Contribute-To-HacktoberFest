@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 40rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+@media screen and (min-width:992px) {
+    .section-center {
+        width: 95vw;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .lorem-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+.section-center h3 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+    color: rgb(0, 110, 255);
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+}
+
+.lorem-form {
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+label {
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+}
+
+input {
+    padding: 4px 6px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 222, 180, 0.603);
+    width: 5rem;
+    font-size: 1.2rem;
+    margin: 0 0.6rem;
+}
+
+.btn {
+    padding: 8px 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.12rem;
+    background-color: coral;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 1.2rem;
+}
+
+.btn:hover {
+    background-color: rgb(255, 164, 131);
+    transition: all 0.3s linear;
+}
+
+.result {
+    margin-bottom: 2rem;
+}
